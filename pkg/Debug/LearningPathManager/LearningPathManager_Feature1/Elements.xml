@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="App\app.js" Url="App/app.js" ReplaceContent="TRUE" />
+    <File Path="App\config.js" Url="App/config.js" ReplaceContent="TRUE" />
+    <File Path="App\common\common.js" Url="App/common/common.js" ReplaceContent="TRUE" />
+    <File Path="App\common\logger.js" Url="App/common/logger.js" ReplaceContent="TRUE" />
+    <File Path="App\config.exceptionHandler.js" Url="App/config.exceptionHandler.js" ReplaceContent="TRUE" />
+    <File Path="App\config.route.js" Url="App/config.route.js" ReplaceContent="TRUE" />
+    <File Path="App\layout\spAppChrome.html" Url="App/layout/spAppChrome.html" ReplaceContent="TRUE" />
+    <File Path="App\layout\spAppChrome.js" Url="App/layout/spAppChrome.js" ReplaceContent="TRUE" />
+    <File Path="App\layout\shell.html" Url="App/layout/shell.html" ReplaceContent="TRUE" />
+    <File Path="App\layout\shell.js" Url="App/layout/shell.js" ReplaceContent="TRUE" />
+    <File Path="App\LearningPath\learningPath.html" Url="App/LearningPath/learningPath.html" ReplaceContent="TRUE" />
+    <File Path="App\LearningPath\learningPath.js" Url="App/LearningPath/learningPath.js" ReplaceContent="TRUE" />
+    <File Path="App\LearningItem\learningItem.html" Url="App/LearningItem/learningItem.html" ReplaceContent="TRUE" />
+    <File Path="App\LearningItem\learningItem.js" Url="App/LearningItem/learningItem.js" ReplaceContent="TRUE" />
+    <File Path="App\appLauncher.js" Url="App/appLauncher.js" ReplaceContent="TRUE" />
+    <File Path="App\services\spContext.js" Url="App/services/spContext.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="39bda8f6-8b22-4160-adcb-bfae5e3e5bed" Scope="Web" Title="LearningPathManager Feature1" Version="2.0.0.2">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\app.html" />
+    <ElementFile Location="Pages\appLauncher.html" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.intellisense.js" />
+    <ElementFile Location="Scripts\appchrome.js" />
+    <ElementFile Location="Scripts\jquery-extensions.js" />
+    <ElementFile Location="Scripts\angular-mocks.js" />
+    <ElementFile Location="Scripts\angular.min.js.map" />
+    <ElementFile Location="Scripts\angular.min.js" />
+    <ElementFile Location="Scripts\angular.js" />
+    <ElementFile Location="Scripts\angular-route.min.js.map" />
+    <ElementFile Location="Scripts\angular-route.min.js" />
+    <ElementFile Location="Scripts\angular-route.js" />
+    <ElementFile Location="Scripts\angular-sanitize.min.js.map" />
+    <ElementFile Location="Scripts\angular-sanitize.min.js" />
+    <ElementFile Location="Scripts\angular-sanitize.js" />
+    <ElementFile Location="Scripts\jquery-3.3.1.slim.min.map" />
+    <ElementFile Location="Scripts\jquery-3.3.1.slim.min.js" />
+    <ElementFile Location="Scripts\jquery-3.3.1.slim.js" />
+    <ElementFile Location="Scripts\jquery-3.3.1.min.map" />
+    <ElementFile Location="Scripts\jquery-3.3.1.min.js" />
+    <ElementFile Location="Scripts\jquery-3.3.1.js" />
+    <ElementFile Location="Scripts\jquery-3.3.1.intellisense.js" />
+    <ElementFile Location="Scripts\angular-cookies.min.js.map" />
+    <ElementFile Location="Scripts\angular-cookies.min.js" />
+    <ElementFile Location="Scripts\angular-cookies.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="LearningPathListInstance\Elements.xml" />
+    <ElementManifest Location="LearningPathList\Elements.xml" />
+    <ElementFile Location="LearningPathList\Schema.xml" />
+    <ElementManifest Location="LearningItemListInstance\Elements.xml" />
+    <ElementManifest Location="LearningItemList\Elements.xml" />
+    <ElementFile Location="LearningItemList\Schema.xml" />
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="App\app.js" />
+    <ElementFile Location="App\config.js" />
+    <ElementFile Location="App\common\common.js" />
+    <ElementFile Location="App\common\logger.js" />
+    <ElementFile Location="App\config.exceptionHandler.js" />
+    <ElementFile Location="App\config.route.js" />
+    <ElementFile Location="App\layout\spAppChrome.html" />
+    <ElementFile Location="App\layout\spAppChrome.js" />
+    <ElementFile Location="App\layout\shell.html" />
+    <ElementFile Location="App\layout\shell.js" />
+    <ElementFile Location="App\LearningPath\learningPath.html" />
+    <ElementFile Location="App\LearningPath\learningPath.js" />
+    <ElementFile Location="App\LearningItem\learningItem.html" />
+    <ElementFile Location="App\LearningItem\learningItem.js" />
+    <ElementFile Location="App\appLauncher.js" />
+    <ElementFile Location="App\services\spContext.js" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="LearningPathListInstance\Elements.xml" />
+        <ElementManifest Location="LearningPathList\Elements.xml" />
+        <ElementManifest Location="LearningItemListInstance\Elements.xml" />
+        <ElementManifest Location="LearningItemList\Elements.xml" />
+        <ElementManifest Location="Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

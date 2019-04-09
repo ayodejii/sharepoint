@@ -1,0 +1,3 @@
+C:\Users\USER\Documents\Visual Studio 2013\Projects\LearningPathManager\bin\Debug\LearningPathManager.pdb
+C:\Users\USER\Documents\Visual Studio 2013\Projects\LearningPathManager\obj\Debug\LearningPathManager.dll
+C:\Users\USER\Documents\Visual Studio 2013\Projects\LearningPathManager\obj\Debug\LearningPathManager.pdb
